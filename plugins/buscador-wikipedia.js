@@ -25,7 +25,7 @@ status: link.status,
 Pesan: eror}
 return notFond}}
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `*[❗️𝐈𝐍𝐅𝐎❗️] 𝙴𝚂𝚃𝙰𝚂 𝚄𝚂𝙰𝙽𝙳𝙾 𝙼𝙰𝙻 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾!!*\n*𝚄𝚂𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾:*\n*${usedPrefix + command} 𝙿𝚊𝚕𝚊𝚋𝚛𝚊 𝚌𝚕𝚊𝚟𝚎 𝚊 𝚋𝚞𝚜𝚌𝚊𝚛*\n\n*𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Estrellas*`
+if (!text) throw `*هذا الامر خاص بالبحث في ويكيبيديا \n مثال \n .wiki islam*`
 wikipedia(`${text}`).then(res => {
 m.reply(`*هذا ما وجده بوبيز حول البحث الخاص بك instagram.com/noureddine_ouafy:*\n\n` + res.result.isi)
 }).catch(() => { m.reply('*هذا الامر خاص بالبحث في ويكيبيديا اذا وقع معك خطأ تواصل مع  instagram.com/noureddine_ouafy*') })}
