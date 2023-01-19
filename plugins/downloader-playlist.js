@@ -14,7 +14,7 @@ listSections.push([`${v.title}`, [
 ['Audiodoc 🎧', `${usedPrefix}ytmp3doc ${v.url}`, `download: ${v.title} (${v.url})`]
 ]])
 }}}).filter(v => v).join('\n\n========================\n\n')
-conn.sendList(m.chat, ' 『 هذا بحثك 』', `𝐌𝐮𝐬𝐢𝐜𝐚 𝐫𝐞𝐥𝐚𝐜𝐢𝐨𝐧𝐚𝐝𝐚 𝐜𝐨𝐧: ${args.join(" ")}`, '𝐄𝐥𝐢𝐣𝐚 𝐮𝐧𝐚 𝐨𝐩𝐜𝐢𝐨𝐧 𝐲 𝐩𝐫𝐞𝐜𝐢𝐨𝐧𝐞 𝐄𝐧𝐯𝐢𝐚𝐫', '[♦ 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒 ♦]', listSections, m)
+conn.sendList(m.chat, ' 『 هذا بحثك 』', `هذا ما وجده بوبيز بوت : ${args.join(" ")}`, 'instagram.com/noureddine_ouafy', '[♦ انقر هنا واختر ما تريد ♦]', listSections, m)
 } catch {
 try {     
 let get_result = await fetchJson(`https://api.lolhuman.xyz/api/ytsearch?apikey=${lolkeysapi}&query=${text}`)
@@ -23,7 +23,7 @@ const listSerch = []
 const listSerch2 = []
 const listSerch3 = []
 const listSerch4 = []
-let teskd = `𝐌𝐮𝐬𝐢𝐜𝐚 𝐫𝐞𝐥𝐚𝐜𝐢𝐨𝐧𝐚𝐝𝐚 𝐜𝐨𝐧: ${args.join(" ")}`
+let teskd = 'هذا ما وجده بوبيز : ${args.join(" ")}'
 const sections = [{ title: `|－－－－－{ ＡＵＤＩＯ }－－－－－|`, rows: listSerch }, { title: `|－－－－－{ ＶＩＤＥＯ }－－－－－|`, rows: listSerch2 }, { title: `|－－{ ＤＯＣＵＭＥＮＴＯ  ＭＰ３ }－－|`, rows: listSerch3 }, { title: `|－－{ ＤＯＣＵＭＥＮＴＯ  ＭＰ４ }－－|`, rows: listSerch4 }]
 for (let x of get_result2) {
 listSerch.push({title: x.title, description: null, rowId: `${usedPrefix}ytmp3 https://www.youtube.com/watch?v=${x.videoId}`})
