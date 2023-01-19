@@ -20,7 +20,7 @@ conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 } catch {
 let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)    
-throw `*🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ: ${uptime} ┃ 👑 ʙʏ ʙʀᴜɴᴏ sᴏʙʀɪɴᴏ ┃ 🔗 ᴄᴜᴇɴᴛᴀs ᴏғᴄ: https://www.atom.bio/theshadowbrokers-team*`}}
+throw `*🤖 BOBIZBOT BY NOUREDDINE OUAFY (BOT IS ONLINE NOW) FOLLOW ME HERE @NOUREDDINE_OUAFY*`}}
 handler.help = ['estado']
 handler.tags = ['main']
 handler.command = /^(estado|status|estate|state|stado|stats|runtime|uptime)$/i
