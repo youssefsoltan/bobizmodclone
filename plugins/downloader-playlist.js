@@ -30,7 +30,7 @@ listSerch.push({title: x.title, description: null, rowId: `${usedPrefix}ytmp3 ht
 listSerch2.push({title: x.title, description: null, rowId: `${usedPrefix}ytmp4 https://www.youtube.com/watch?v=${x.videoId}`})
 listSerch3.push({title: x.title, description: null, rowId: `${usedPrefix}ytmp3doc https://www.youtube.com/watch?v=${x.videoId}`})
 listSerch4.push({title: x.title, description: null, rowId: `${usedPrefix}ytmp4doc https://www.youtube.com/watch?v=${x.videoId}`})}
-const listMessage = { text: teskd, footer: '𝐄𝐥𝐢𝐣𝐚 𝐮𝐧𝐚 𝐨𝐩𝐜𝐢𝐨𝐧 𝐲 𝐩𝐫𝐞𝐜𝐢𝐨𝐧𝐞 𝐄𝐧𝐯𝐢𝐚𝐫', title: " 『 𝗠𝗨𝗦𝗜𝗖𝗔 𝗥𝗘𝗟𝗔𝗖𝗜𝗢𝗡𝗔𝗗𝗔 』", buttonText: "[♦ 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒 ♦]", sections }
+const listMessage = { text: teskd, footer: 'تابعني هنا instagram.com/noureddine_ouafy', title: " 『 هذا ما وجده بوبيز بوت  』", buttonText: "[♦ نتيجة البحث ♦]", sections }
 conn.sendMessage(m.chat, listMessage, { quoted: m })    
 } catch {    
 await m.reply('*وقعت مشكلة المرجو مراسلة instagram.com/noureddine_ouafy*')
