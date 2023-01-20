@@ -1,7 +1,7 @@
 import translate from '@vitalets/google-translate-api'
 import fetch from 'node-fetch'
 let handler = async (m, { args, usedPrefix, command }) => {
-let msg = `*هذا الامز خاص بالترجمة الفورية لكل اللغات يكفي فقط ان تكون تعرف اختصار لكل لغة مثلا اختصار اللغة العربية هو  Ar \n اذن كيف ستترجم  تكتب \n .traslate ar good night \n هذا اذا اردت الترجمة للعربية  ونفس العملية لباقي اللغات `
+let msg = `*هذا الامز خاص بالترجمة الفورية لكل اللغات يكفي فقط ان تكون تعرف اختصار لكل لغة مثلا اختصار اللغة العربية هو  Ar \n اذن كيف ستترجم  تكتب \n .translate ar good night \n هذا اذا اردت الترجمة للعربية  ونفس العملية لباقي اللغات `
 if (!args || !args[0]) return m.reply(msg)  
 let lang = args[0]
 let text = args.slice(1).join(' ')
