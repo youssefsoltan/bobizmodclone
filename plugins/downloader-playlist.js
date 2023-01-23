@@ -14,7 +14,7 @@ listSections.push([`${v.title}`, [
 ['Audiodoc 🎧', `${usedPrefix}ytmp3doc ${v.url}`, `download: ${v.title} (${v.url})`]
 ]])
 }}}).filter(v => v).join('\n\n========================\n\n')
-conn.sendList(m.chat, ' 『 هذا بحثك 』', `هذا ما وجده بوبيز بوت : ${args.join(" ")}`, 'instagram.com/noureddine_ouafy', '[♦ انقر هنا واختر ما تريد ♦]', listSections, m)
+conn.sendList(m.chat, ' 『 هذا بحثك 』', `هذا ما وجده BOT - AL SOLTAN : ${args.join(" ")}`, 'instagram.com/1y._.o2', '[♦ انقر هنا واختر ما تريد ♦]', listSections, m)
 } catch {
 try {     
 let get_result = await fetchJson(`https://api.lolhuman.xyz/api/ytsearch?apikey=${lolkeysapi}&query=${text}`)
@@ -30,10 +30,10 @@ listSerch.push({title: x.title, description: null, rowId: `${usedPrefix}ytmp3 ht
 listSerch2.push({title: x.title, description: null, rowId: `${usedPrefix}ytmp4 https://www.youtube.com/watch?v=${x.videoId}`})
 listSerch3.push({title: x.title, description: null, rowId: `${usedPrefix}ytmp3doc https://www.youtube.com/watch?v=${x.videoId}`})
 listSerch4.push({title: x.title, description: null, rowId: `${usedPrefix}ytmp4doc https://www.youtube.com/watch?v=${x.videoId}`})}
-const listMessage = { text: teskd, footer: 'تابعني هنا instagram.com/noureddine_ouafy', title: " 『 هذا ما وجده بوبيز بوت  』", buttonText: "[♦ نتيجة البحث ♦]", sections }
+const listMessage = { text: teskd, footer: 'تابعني هنا instagram.com/1y._.o2', title: " 『 هذا ما وجده BOT - AL SOLTAN  』", buttonText: "[♦ نتيجة البحث ♦]", sections }
 conn.sendMessage(m.chat, listMessage, { quoted: m })    
 } catch {    
-await m.reply('*وقعت مشكلة المرجو مراسلة instagram.com/noureddine_ouafy*')
+await m.reply('*وقعت مشكلة المرجو مراسلة instagram.com/1y._.o2*')
 }}}
 handler.command = /^playlist|playlist2$/i
 export default handler
