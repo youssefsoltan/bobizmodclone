@@ -23,7 +23,8 @@ const listSerch = []
 const listSerch2 = []
 const listSerch3 = []
 const listSerch4 = []
-let teskd = 'هذا ما وجده بوبيز : ${args.join(" ")}'
+let teskd = 'هذا ما وجده بوت السلطان 
+بوبيز : ${args.join(" ")}'
 const sections = [{ title: `|－－－－－{ ＡＵＤＩＯ }－－－－－|`, rows: listSerch }, { title: `|－－－－－{ ＶＩＤＥＯ }－－－－－|`, rows: listSerch2 }, { title: `|－－{ ＤＯＣＵＭＥＮＴＯ  ＭＰ３ }－－|`, rows: listSerch3 }, { title: `|－－{ ＤＯＣＵＭＥＮＴＯ  ＭＰ４ }－－|`, rows: listSerch4 }]
 for (let x of get_result2) {
 listSerch.push({title: x.title, description: null, rowId: `${usedPrefix}ytmp3 https://www.youtube.com/watch?v=${x.videoId}`})
