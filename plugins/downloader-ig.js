@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import instagramGetUrl from 'instagram-url-direct'
 import { instagramdl, instagramdlv2, instagramdlv3, instagramdlv4 } from  '@bochilteam/scraper'
 let handler = async (m, { conn, args, command, usedPrefix }) => {
-if (!args[0]) throw `يمكنك تحميل فيديوهات الانستغرام من خلال كتابة الامر متبوعا برابط الفيديو الذي تود تحميله مثال : \n *.ig* https://www.instagram.com/reel/CgZJJe-l0Mr/?igshid=Yzg5MTU1MDY=` 
+if (!args[0]) throw `يمكنك تحميل فيديوهات الانستغرام من خلال كتابة الامر متبوعا برابط الفيديو الذي تود تحميله مثال : \n *.ig* https://www.instagram.com/p/CniBu0wMh4F/?igshid=OGQ2MjdiOTE=` 
 try {
 await m.reply(`*جاري التحميل المرجو التأكد ان الفيديو الدي تريد تحميله لا يتجاوز دقيقتين ...*`)
 switch (command) {        
