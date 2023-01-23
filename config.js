@@ -8,27 +8,27 @@ import axios from 'axios'
 import moment from 'moment-timezone' 
 
 global.owner = [
-  ['212605784394', '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸', true],
-  ['212605784394', '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸', true],
-  ['212605784394', '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸', true],
-  ['212605784394', '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸', true],
-  ['212605784394', '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸', true],
-  ['212605784394', '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸', true],
-  ['212605784394', '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸', true],  
-  ['212605784394', '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸', true],	
-  ['212605784394'],
-  ['212605784394'],
-  //['212605784394'],	
-  ['212605784394']
+  ['201227179105', 'YoUsSef Al SoLtAn', true],
+  ['201227179105', 'YoUsSef Al SoLtAn', true],
+  ['201227179105', 'YoUsSef Al SoLtAn', true],
+  ['201227179105', 'YoUsSef Al SoLtAn', true],
+  ['201227179105', 'YoUsSef Al SoLtAn', true],
+  ['201227179105', 'YoUsSef Al SoLtAn', true],
+  ['201227179105', 'YoUsSef Al SoLtAn', true],  
+  ['201227179105', 'YoUsSef Al SoLtAn', true],	
+  ['201227179105'],
+  ['201227179105'],
+  //['201227179105'],	
+  ['201227179105']
 ] 
 
-global.suittag = ['212605784394'] 
-global.prems = ['212605784394'] 
+global.suittag = ['201227179105'] 
+global.prems = ['201227179105'] 
 
-global.packname = '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸'
-global.author = '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸'
-global.wm = '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸'
-global.igfg = '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸'
+global.packname = 'YoUsSef Al SoLtAn'
+global.author = 'YoUsSef Al SoLtAn'
+global.wm = 'YoUsSef Al SoLtAn'
+global.igfg = 'YoUsSef Al SoLtAn'
 global.wait = '*[❗] سوف يتم تلبية طلبكم بعد قليلا المرجو الانتظار قليلا ...*'
 
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -430,15 +430,15 @@ global.mes = d.toLocaleDateString('en', { month: 'long' })
 global.año = d.toLocaleDateString('en', { year: 'numeric' })
 global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
 //*****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`
-global.gt = '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸'
-global.mysticbot = '𝖡𝖮𝖡𝖨𝖹𝖡𝖮𝖳 𝖡𝖸 𝖭𝖮𝖴𝖱𝖤𝖣𝖣𝖨𝖭𝖤 𝖮𝖴𝖠𝖥𝖸'
+global.wm2 = `▸ ${dia} ${fecha}\n▸ BOT - AL SOLTAN`
+global.gt = 'YoUsSef Al SoLtAn'
+global.mysticbot = 'YoUsSef Al SoLtAn'
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
 global.waitt = '*[❗]  المرجو الانتظار ...*'
 global.waittt = '*[❗] المرجو الانتظار ...*'
 global.waitttt = '*[❗] المرجو الانتظار قليلا...*'
-global.nomorown = '212605784394'
+global.nomorown = '201227179105'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 global.cmenut = '❖––––––『'
 global.cmenub = '┊✦ '
